@@ -1,0 +1,7 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <flow id="normal" type="VM_standard_car" begin="0" end="75" number="75" from="entry" to="exit" departPos="last" departLane="best" />
+    <flow id="normal_same" type="VM_standard_car" begin="0" end="25" number="25" from="-gneE30" to="-gneE30.885" departPos="last" departLane="best" />
+    <vehicle id="000" type="VM_standard_car" depart="10.00" departPos="random" departLane="2">
+        <route edges="-gneE30 -gneE30.15 -gneE30.15.1219 -gneE30.14 -gneE30.885"/>  
+    </vehicle>
+</routes>
